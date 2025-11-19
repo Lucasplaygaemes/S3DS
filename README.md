@@ -4,3 +4,9 @@ S3DS stands for Ultra-Sonic 3D Scanner, The main objective of this code is a pro
 # Install
 Flash trough the Arduino IDE the file sender.c, or with any tool of your like.
 Then compile and run the serial_sender.c and with new updates, the mesh.c to show with raylib a mesh 3D graph. 
+
+Only one file need to be compile and for now it's the render.c, you can compile with:
+
+```gcc render.c -o render -Iraylib/src -Lraylib/src -lraylib -lGL -lm -lpthread -ldl -lrt -lX11```
+
+
