@@ -1,2 +1,2 @@
 # S3DS
-Sonic 3D Scanner
+Ultra-Sonic 3D Scanner
